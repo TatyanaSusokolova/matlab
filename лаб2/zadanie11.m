@@ -8,8 +8,8 @@ figure(1);
 mag = abs(h);
 phase = angle(h)*180/pi;
 %позначення осей графіків
-subplot(2,1,1), plot(w/(2*pi)*fs, mag), grid on;
-xlabel('fs'), ylabel('A');
+subplot(2,1,1), plot(w/(2*pi)*fs, mag), grid on; %grid on - малює сітку
+xlabel('Частота'), ylabel('Амплітуда');
 subplot(2,1,2), plot(w/(2*pi)*fs, unwrap(phase)), grid on;
-xlabel('fs'), ylabel('P');
+xlabel('Частота'), ylabel('Фаза');
 
