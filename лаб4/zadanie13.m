@@ -29,5 +29,3 @@ plot(w/(2*pi)*fs, mag);
 title('АЧХ');
 xlabel('Частота'), ylabel('Амплітуда');
 
-D = var(y)
-
